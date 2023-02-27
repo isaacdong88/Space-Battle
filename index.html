@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="game-title">Space Battle</div>
+        <div class="gameboard">
+            <div class="display">
+                <div class="message"></div>
+                <div class="ships">
+                    <div class="uss">
+                        <img src="shipGIF/transparentImage.png" alt="" class="ussImg">
+                    </div>
+                    <div class="alien">
+                        <img src="shipGIF/transparentImage.png" alt="" class="alienImg">
+                    </div>
+                </div>
+            </div>
+            <div class="status">
+                <div class="player1">
+                    <div class="hull1"></div>
+                    <div class="firepower1"></div>
+                    <div class="accuracy1"></div>
+                </div>
+                <div class="player2">
+                    <div class="hull2"></div>
+                    <div class="firepower2"></div>
+                    <div class="accuracy2"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="userAtk" onclick="userAttack()">USS ATTACK</button>
+                <button class="retreat" onclick="retreat()">Retreat</button>
+                <button class="enemyAtk" onclick="enemyAttack()">ENEMY ATTACK</button>
+            </div>
+        </div>
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

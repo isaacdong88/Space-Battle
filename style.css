@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('shipGIF/galaxy.gif');
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.game-title {
+    /* border: ridge; */
+    height: 50px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gameboard {
+    border: groove rgb(148, 156, 232);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around ;
+}
+
+.display {
+    border: solid black;
+    height: 300px;
+    width: 90%;
+    background-image: url(shipGIF/space.gif);
+    background-size: cover;
+}
+
+.message {
+    /* border: ridge; */
+    height: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.ships {
+    /* border: ridge; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uss {
+    /* border: ridge; */
+    width: 35%;
+    height: 150px;
+}
+
+.ussImg {
+    /* border: ridge; */
+    height: 150px;
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+.alien {
+    /* border: ridge; */
+    width: 35%;
+    height: 150px;
+}
+
+.alienImg {
+    /* border: ridge; */
+    height: 150px;
+    width: 100%;
+    transform: rotate(270deg);
+}
+
+.status {
+    /* border: solid black; */
+    height: 80px;
+    width: 90%;
+    display: flex;
+}
+
+.player1 {
+    /* border: ridge; */
+    height: 80px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player1 div {
+    border: groove rgb(148, 156, 232);
+    width: 100%;
+}
+
+.player2 {
+    /* border: ridge; */
+    height: 80px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.player2 div {
+    border: groove rgb(148, 156, 232);
+    width: 100%;
+}
+
+
+.controls {
+    border: solid black;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userAtk {
+    background-color: rgb(103, 239, 103);
+    font-weight: bold;
+}
+
+.enemyAtk {
+    background-color: rgb(239, 29, 36);
+    font-weight: bold;
+}
+
+.retreat {
+    background-color: rgb(239, 29, 36);
+    font-weight: bold;
+}
